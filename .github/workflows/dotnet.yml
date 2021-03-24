@@ -22,6 +22,7 @@ jobs:
 
     - name: Build
       run: dotnet publish -o pub/
+      
     
   
     - name: Upload a Build Artifact
